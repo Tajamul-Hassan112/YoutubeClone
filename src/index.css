@@ -1,0 +1,56 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+img {
+  cursor: pointer;
+}
+.flex-div {
+  display: flex;
+  align-items: center;
+} */
+/* index.css */
+
+/* Default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #ffffff; /* Light background color */
+  color: #000000; /* Light text color */
+}
+
+.navbar-container {
+  background-color: #ffffff; /* Light background color for the navbar */
+  color: #000000; /* Light text color for the navbar */
+}
+
+/* Dark mode styles for the Navbar */
+body.dark-mode .navbar-container {
+  background-color: #1f1f1f; /* Dark background color for the navbar in dark mode */
+  color: #ffffff; /* Dark text color for the navbar in dark mode */
+}
